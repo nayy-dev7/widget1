@@ -53,7 +53,7 @@ class MyApp extends StatelessWidget {
               width: 550,
               height: 550,
               decoration: BoxDecoration(
-                gradient: LinearGradient(colors: [Colors.blue, Colors.purple]),
+                gradient: LinearGradient(colors: [const Color.fromARGB(255, 60, 250, 155), const Color.fromARGB(255, 255, 85, 198)]),
                 borderRadius: BorderRadius.circular(16),
               ),
               child: const Text(
